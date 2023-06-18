@@ -3,7 +3,7 @@ const userInput = document.getElementById("user-input");
 const botMessage = document.getElementById("bot-message");
 
 // Saludo inicial del BotenAnna
-botMessage.innerText = "Hello, Albin! <3 I´m your personal bot made by Anna, your wife. How can I assist you today?";
+botMessage.innerText = "Hello, Albin! <3 I'm your personal bot made by Anna, your wife. How can I assist you today?";
 
 // Respuestas predefinidas a algunas preguntas básicas
 function respondToUserInput(userInput) {
@@ -14,8 +14,8 @@ function respondToUserInput(userInput) {
     response = "Hello, hej, hola, how are you?";
   } else if (userMessage.includes("i'm good") || userMessage.includes("great")) {
     response = "I'm glad to hear that! Even I would be good if Anna was my girlfriend. Joke. How else can I assist you?";
-  } else if (userMessage.includes(" what is your name")) {
-    response = "My name is BotenAnna, but you can call me MiAmor. Don´t tell to my boss.";
+  } else if (userMessage.includes("what is your name")) {
+    response = "My name is BotenAnna, but you can call me MiAmor. Don't tell my boss.";
   } else if (userMessage.includes("gimme reasons why Anna loves me")) {
     const reasons = [
       "I love your genuine soul",
@@ -27,11 +27,11 @@ function respondToUserInput(userInput) {
       "I love you because of your patience and wisdom.",
       "I love you for your super interesting conversations and facts.",
       "I love you for your big and gentle heart full of kindness.",
-      "I love how you bright everyone´s life with your presence.",
+      "I love how you brighten everyone's life with your presence.",
       "I love you for your dedication and hard work in yourself and us.",
       "I love you because you are authentic.",
       "I love you for everything that we have been through.",
-      "I love you today and I always will, cause you are worth an entire life.",
+      "I love you today and I always will, 'cause you are worth an entire life."
       // Agrega más razones aquí
     ];
 
