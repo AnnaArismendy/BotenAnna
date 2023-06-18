@@ -15,7 +15,7 @@ function respondToUserInput(userMessage) {
   } else if (lowerCaseMessage.includes("what is your name?")) {
     displayBotMessage("My name is BotenAnna, but you can call me MiAmor. Don't tell my boss.");
   } else if (lowerCaseMessage.includes("gimme reasons why anna loves me")) {
-    const reasons = [
+    displayBotMessage( 
       "I love your genuine soul",
       "I admire your intelligence and dedication",
       "You are so cool and awesome to be around",
