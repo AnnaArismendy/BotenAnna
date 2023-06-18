@@ -1,5 +1,5 @@
-function mostrarRazonAmor() {
-    var razones = [
+function mostrarReasonsWhyILoveYou() {
+    var reasons = [
         "I love you for your amazing sense of humor.",
         "I love you for your strong confidence in every hard moment.",
         "I love you because of your patience and wisdom.",
@@ -12,5 +12,5 @@ function mostrarRazonAmor() {
         "I love you today and I always will, cause you are worth an entire life."
     ];
 
-    var razonContainer = document.getElementById("razon-text");
+    var reasonContainer = document.getElementById("reason-text");
    
