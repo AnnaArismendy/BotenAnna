@@ -1,4 +1,4 @@
-function mostrarReasonsWhyILoveYou() {
+function ReasonsWhyILoveYou() {
     var reasons = [
         "I love you for your amazing sense of humor.",
         "I love you for your strong confidence in every hard moment.",
@@ -14,26 +14,26 @@ function mostrarReasonsWhyILoveYou() {
 
     var reasonContainer = document.getElementById("reason-text");
 
-    const conversationContainer = document.getElementById("conversation");
+const conversationContainer = document.getElementById("conversation");
 const userInput = document.getElementById("user-input");
 const botMessage = document.getElementById("bot-message");
 
 // Saludo inicial del BotenAnna
-botMessage.innerText = "¡Hola, Hej! I am Boten Anna. How can I help you today?";
+botMessage.innerText = "¡Hola! Soy tu BotenAnna. ¿En qué puedo ayudarte hoy?";
 
 // Respuestas predefinidas a algunas preguntas básicas
 function respondToUserInput(userInput) {
   const userMessage = userInput.toLowerCase();
   let response = "";
 
-  if (userMessage.includes("Hello, Hej") || userMessage.includes("greetings")) {
-    response = "¡Hola! <3 ¿Cómo estás, querido Albin?";
-  } else if (userMessage.includes("I'm okay") || userMessage.includes("Estoy bien")) {
-    response = "I´m so glad you are okay. How can I help you today?";
-  } else if (userMessage.includes("Who are you?")) {
-    response = "My name is Boten Anna. But you can call me Mi Amor. Winkwink.";
+  if (userMessage.includes("hola") || userMessage.includes("saludos")) {
+    response = "¡Hola! ¿Cómo estás?";
+  } else if (userMessage.includes("bien") || userMessage.includes("genial")) {
+    response = "Me alegra escuchar eso. ¿En qué más puedo ayudarte?";
+  } else if (userMessage.includes("nombre")) {
+    response = "Mi nombre es BotenAnna, pero puedes llamarme como quieras.";
   } else {
-    response = "I´m sorry, I can´t understand you. Could you be more specific, please?";
+    response = "Lo siento, no entiendo. ¿Podrías ser más específico/a?";
   }
 
   displayBotMessage(response);
@@ -62,4 +62,5 @@ function displayUserMessage(message) {
   userMessageElement.innerText = message;
   conversationContainer.appendChild(userMessageElement);
 }
+
 
