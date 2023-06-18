@@ -1,9 +1,8 @@
 const conversationContainer = document.getElementById("conversation");
 const userInput = document.getElementById("user-input");
-const botMessage = document.getElementById("bot-message");
 
 // Saludo inicial del BotenAnna
-botMessage.innerText = "Hello, Albin! <3 I'm your personal bot made by Anna, your wife. How can I assist you today?";
+displayBotMessage("Hello, Albin! <3 I'm your personal bot made by Anna, your wife. How can I assist you today?");
 
 // Respuestas predefinidas a algunas preguntas básicas
 function respondToUserInput(userInput) {
@@ -35,7 +34,7 @@ function respondToUserInput(userInput) {
       // Agrega más razones aquí
     ];
 
-    response = "Here are some reasons why I love you:\n\n";
+    response = "Here are some reasons why Anna loves you:\n\n";
     response += reasons.join("\n");
   } else {
     response = "I'm sorry, I don't understand. Could you be more specific?";
@@ -67,3 +66,4 @@ function displayUserMessage(message) {
   userMessageElement.innerText = message;
   conversationContainer.appendChild(userMessageElement);
 }
+
