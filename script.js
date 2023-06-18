@@ -10,9 +10,9 @@ function respondToUserInput(userMessage) {
 
   if (lowerCaseMessage.includes("hello") || lowerCaseMessage.includes("hej")) {
     displayBotMessage("Hello, hej, hola, how are you?");
-  } else if (lowerCaseMessage.includes("i'm good") || lowerCaseMessage.includes("great")) {
+  } else if (lowerCaseMessage.includes("i am good") || lowerCaseMessage.includes("great")) {
     displayBotMessage("I'm glad to hear that! Even I would be good if Anna was my girlfriend. Joke. How else can I assist you?");
-  } else if (lowerCaseMessage.includes("what is your name")) {
+  } else if (lowerCaseMessage.includes("what is your name?")) {
     displayBotMessage("My name is BotenAnna, but you can call me MiAmor. Don't tell my boss.");
   } else if (lowerCaseMessage.includes("gimme reasons why anna loves me")) {
     const reasons = [
