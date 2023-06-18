@@ -31,7 +31,7 @@ function respondToUserInput(userInput) {
       "I love you for your dedication and hard work in yourself and us.",
       "I love you because you are authentic.",
       "I love you for everything that we have been through.",
-      "I love you today and I always will, cause you are worth an entire life."
+      "I love you today and I always will, cause you are worth an entire life.",
       // Agrega más razones aquí
     ];
 
