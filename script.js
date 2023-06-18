@@ -15,7 +15,8 @@ function respondToUserInput(userInput) {
     response = "I'm glad to hear that! Even I would be good if Anna was my girlfriend. Joke. How else can I assist you?";
   } else if (userMessage.includes("what is your name")) {
     response = "My name is BotenAnna, but you can call me MiAmor. Don't tell my boss.";
-  } else if (userMessage.includes("gimme reasons why Anna loves me")) {
+  } else if (userMessage.includes("reasons why Anna loves me")) {
+
     const reasons = [
       "I love your genuine soul",
       "I admire your intelligence and dedication",
