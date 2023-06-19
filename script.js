@@ -2,7 +2,7 @@ const conversationContainer = document.getElementById("conversation");
 const userInput = document.getElementById("user-input");
 
 // Saludo inicial del BotenAnna
-displayBotMessage("Hello, Albin! <3 I'm your personal bot made by Anna, your wife. How can I assist you today?");
+displayBotMessage("Hello, Albin! <3 I'm your personal bot made by Anna, your potential wife. How can I assist you today?");
 
 // Respuestas predefinidas a algunas preguntas básicas
 function respondToUserInput(userMessage) {
@@ -10,7 +10,7 @@ function respondToUserInput(userMessage) {
 
   if (lowerCaseMessage.includes("hello") || lowerCaseMessage.includes("hej")) {
     displayBotMessage("Hello, hej, hola, how are you?");
-  } else if (lowerCaseMessage.includes("i am good") || lowerCaseMessage.includes("great")) {
+  } else if (lowerCaseMessage.includes("I´m good") || lowerCaseMessage.includes("great")) {
     displayBotMessage("I'm glad to hear that! Even I would be good if Anna was my girlfriend. Joke. How else can I assist you?");
   } else if (lowerCaseMessage.includes("what is your name?")) {
     displayBotMessage("My name is BotenAnna, but you can call me MiAmor. Don't tell my boss.");
