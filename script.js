@@ -3,18 +3,16 @@ const userInput = document.getElementById("user-input");
 
 // Saludo inicial del BotenAnna
 displayBotMessage("Hello, Albin! <3 I'm your personal bot made by Anna, your potential wife. How can I assist you today?");
-
-// Respuestas predefinidas a algunas preguntas básicas
 function respondToUserInput(userMessage) {
   const lowerCaseMessage = userMessage.toLowerCase();
 
   if (lowerCaseMessage.includes("hello") || lowerCaseMessage.includes("hej")) {
     displayBotMessage("Hello, hej, hola, how are you?");
-  } else if (lowerCaseMessage.includes("I´m good") || lowerCaseMessage.includes("great")) {
+  } else if (lowerCaseMessage.includes("I'm good") || lowerCaseMessage.includes("great")) {
     displayBotMessage("I'm glad to hear that! Even I would be good if Anna was my girlfriend. Joke. How else can I assist you?");
-  } else if (lowerCaseMessage.includes("Your name")) {
+  } else if (lowerCaseMessage.includes("your name")) {
     displayBotMessage("My name is BotenAnna, but you can call me MiAmor. Don't tell my boss.");
-  } else if (lowerCaseMessage.includes("Thank you")) {
+  } else if (lowerCaseMessage.includes("thank you")) {
     displayBotMessage("Con gusto, guapo.");
   } else if (lowerCaseMessage.includes("gimme reasons why anna loves me")) {
     const reasons = [
