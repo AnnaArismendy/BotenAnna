@@ -2,7 +2,7 @@ const conversationContainer = document.getElementById("conversation");
 const userInput = document.getElementById("user-input");
 
 // Saludo inicial del BotenAnna
-displayBotMessage("Hello, Albin! <3 I'm your personal bot made by Anna, your potential wife. How can I assist you today?");
+displayBotMessage("Hello, Albin! <3 I'm your personal bot made by Anna, your future wife. How can I assist you today?");
 function respondToUserInput(userMessage) {
   const lowerCaseMessage = userMessage.toLowerCase();
 
