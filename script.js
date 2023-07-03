@@ -5,7 +5,7 @@ const userInput = document.getElementById("user-input");
 displayBotMessage("Hello, Albin! <3 I'm your personal bot made by Anna, your future wife. How can I assist you today?");
 function respondToUserInput(userMessage) {
   const lowerCaseMessage = userMessage.toLowerCase();
-
+ 
   if (lowerCaseMessage.includes("hello") || lowerCaseMessage.includes("hej")) {
     displayBotMessage("Hello, hej, hola, how are you?");
   } else if (lowerCaseMessage.includes("I'm good") || lowerCaseMessage.includes("great")) {
@@ -14,6 +14,8 @@ function respondToUserInput(userMessage) {
     displayBotMessage("My name is BotenAnna, but you can call me MiAmor. Don't tell my boss.");
   } else if (lowerCaseMessage.includes("thank you")) {
     displayBotMessage("Con gusto, guapo.");
+   } else if (lowerCaseMessage.includes("I had a good day")) {
+    displayBotMessage("That´s awesome, you deserve it. You are the best person in this world, according to my data, which has information of every human that ever existed, exist and is gonna exist. Don´t ever forget you are here to enjoy this life, have fun and be true to yourself. The best is coming.");
   } else if (lowerCaseMessage.includes("gimme reasons why anna loves me")) {
     const reasons = [
       "I love your genuine soul",
